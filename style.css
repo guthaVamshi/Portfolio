@@ -1,0 +1,61 @@
+*{
+    background-color: rgb(13, 15, 15);
+    color: white;
+}
+nav{
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+nav li{
+    list-style: none;
+    float: right;
+    margin: 1rem;
+    padding:0.5rem;
+    
+    
+}
+nav li:hover{
+    background-color: red;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    margin-top: 20rem;
+    font-size: 3rem;
+    
+}
+ h2{
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 3rem;
+    
+}
+p{
+    margin:7rem; 
+}
+.social{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 5rem;
+}
+.social i{
+        margin: 1rem;
+       font-size: 5rem;     
+}
+.myskill{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.myskill div{
+    
+    padding: 1rem;
+}
