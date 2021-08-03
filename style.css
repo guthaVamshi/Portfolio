@@ -1,37 +1,8 @@
-*{
-    background-color: rgb(13, 15, 15);
-    color: white;
-}
-nav{
-    padding: 1rem;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: block;
-}
-nav li{
-    list-style: none;
-    float: right;
-    margin: 1rem;
-    padding:0.5rem;
-    
-    
-}
-nav li:hover{
-    background-color: red;
-    border-radius: 5px;
-}
-h1{
-    text-align: center;
-    margin-top: 20rem;
-    font-size: 3rem;
-    
-}
- h2{
-    text-align: center;
-    margin-top: 10rem;
-    font-size: 3rem;
-    
+
+
+@media (min-width: 768px)
+.p-md-5 {
+    padding: 3rem!important;
 }
 p{
     margin:7rem; 
@@ -48,9 +19,8 @@ p{
 }
 .myskill{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items: center;
-    margin: 2rem;
     font-weight: bold;
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -59,3 +29,48 @@ p{
     
     padding: 1rem;
 }
+#vamshi{
+    font-family: "Lobster", Sans-serif;
+}
+#mainDiv{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+   background-image: url("https://us.123rf.com/450wm/tirachard/tirachard1802/tirachard180200064/95656773-creative-flat-lay-photo-of-workspace-desk-top-view-office-desk-with-laptop-blank-empty-notebooks-and.jpg?ver=6");
+   background-repeat: no-repeat;
+   background-size: cover; 
+   background-position:center;
+   padding-left: 5rem;
+   
+}
+
+    #navbarNav{
+justify-content: flex-end;
+padding-right:10rem ;
+    }
+    .navbar{
+        padding-left: 10rem;
+    }
+#projects{
+    text-align: center;
+    font-size: 2rem;
+    margin: 5rem;
+    font-weight: bold;
+    padding-top: 5rem;
+}
+.progress-bar{
+    background: linear-gradient(to bottom left, #ee8a78, #ff4f64);
+    opacity: 0.8;
+}
+@media screen and (max-width: 425px) {
+    #mainDiv{
+        margin-top:0rem;
+        padding-left: 2rem;
+    }
+    .myskill{
+        justify-content: space-between;
+    }
+    #nav{
+        display: none;
+        visibility: none;
+    }
+  }
