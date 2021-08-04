@@ -6,7 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
+    <!-- CSS only -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,52 +25,101 @@
     <meta property="og:description" content="this is my portfolio hope you will like it">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Gutha vamshi</title>
 </head>
-<style>
-    td {
-        border: 1px solid;
-    }
-</style>
 
-<body class="">
-    <div class=" bg-light sticky-top ps-4">
-        <header class="d-flex flex-wrap justify-content-center pt-3 mb-4">
+
+<body class=""  data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <div class=" bg-light sticky-top p-2">
+        <header class="d-flex flex-wrap justify-content-center pt-3 "  id="navbar-example2" >
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
 
-                <span class="fs-4">Welcome to page</span>
+                <span class="fs-4 ps-4" style="color: #ff4f64">Welcome!!!</span>
             </a>
 
-            <ul class="nav nav-pills">
-                
-                <li class="nav-item"><a href="#" class="nav-link">projects</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">skills</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">contact me</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <ul class="navigation nav nav-pills ml-4">
+                <li class="nav-item "><a href="#mainDiv" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="#skill" class="nav-link">skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">contact me</a></li>
+               
             </ul>
         </header>
     </div>
 
-    <div id="mainDiv" class=" d-flex justify-content-start   ">
-        <div class="name">
-            <h5> hello , i am </h5>
-            <h1 id="vamshi" class="display-3 ">Vamshi Gutha</h1>
+    <div id="mainDiv" class=" d-flex justify-content-center   ">
+        <div class="name text-left">
+            <h5> Hello , i am </h5>
+            <h1 id="vamshi" class="display-3" onload="typeWriter()"></h1>
             <h5>web developer | software developer</h5>
         </div>
-      
-    </div>
 
-    <div class="container-fluid" id="skill" style="padding-top:5%;">
+    </div>
+    <section>
+        <div id="about" class=" m-4 d-flex justify-content-center  align-items-center">
+            <div class="mypic mx-4 img-fluid ">
+                <img id="hh" src="vamshi.jpg" alt="" srcset="">
+            </div>
+            <div class="about" >
+                <h2>
+                    About Me
+                </h2>
+               
+                    <a href="https://github.com/guthaVamshi" target="blank"> <i class="fab fa-github fs-2"></i></a>
+                <p class="my-4 mx-0 font-weight-light">Passionate developer & problem solver with determoned skillset
+                </p>
+                <div class="row ">
+                    <div class="col-lg-6">
+                        <div class="about-desc-info">
+                            <b>Age : </b>
+                            <span id="myAge">20</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-desc-info">
+                            <b>Location : </b>
+                            <span>Khammam , Telangana</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-desc-info">
+                            <b>Degree : </b>
+                            <span>Bachelor in Computer Science</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-desc-info">
+                            <b>Skype : </b>
+                            <a href="tel:vamshigutha">vamshigutha</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-desc-info">
+                            <b>Phone : </b>
+                            <a href="tel:+91-7981124894">+91-7981124894</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-desc-info">
+                            <b>Mail : </b>
+                            <a href="mailto:vamshigutha@gmail.com">vamshigutha@gmail.com</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid bg-light" id="skill">
         <div class="container">
             <div class="align-items-center justify-content-center">
-                <h1 class=" text-center">MY SKILLS</h1>
+                <h1 class=" text-center">My Skills</h1>
             </div>
-            <div class="row align-items-center" style="padding-top:3%;">
+            <div class="row align-items-center" id="rowskills" style="padding-top:3%;">
                 <div class="col-6">
 
                     <div class="skill">
@@ -87,8 +140,8 @@
                             <h6 class="font-weight-bold">90%</h6>
                         </div>
                         <div class="progress" style="border-radius: 10px;">
-                            <div class="progress-bar " role="progressbar" aria-valuenow="90"
-                                aria-valuemin="0" aria-valuemax="100" style="width:90%"></div>
+                            <div class="progress-bar " role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:90%"></div>
                         </div>
                     </div>
                 </div>
@@ -101,8 +154,8 @@
                             <h6 class="font-weight-bold">85%</h6>
                         </div>
                         <div class="progress" style="border-radius: 10px;">
-                            <div style="width:85%;" class="progress-bar " role="progressbar"
-                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div style="width:85%;" class="progress-bar " role="progressbar" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -148,7 +201,39 @@
 
         </div>
     </div>
-    <h2 id="projects">my projects</h2>
+    <div class="container mt-4 pt-4">
+        <h1 class="text-center">My Education</h1>
+        <div class="edu d-flex justify-content-evenly align-items-center ">
+
+            <div class="university b-box m-4">
+                <div class="container m-4">
+                    <h3>lovely professional university</h3>
+                    <p>B.Tech in CSE</p>
+                    <p class="badge">2018-2022</p>
+                </div>
+
+            </div>
+            <div class="inter b-box m-4">
+                <div class="container m-4">
+                    <h3>Narayana Institutions</h3>
+                    <p>intermediate</p>
+                    <p class="badge">2016-2018</p>
+                </div>
+            </div>
+            <div class="tenth b-box m-4">
+                <div class="container m-4">
+                    <h3>Century Hi-profile School</h3>
+                    <p>Tenth</p>
+                    <p class="badge">2008-2016</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <h1 class="text-center " id="projects" >My Projects</h1>
     <div class="myskill">
         <div class="1"><img class="img-fluid"
                 src="data:image/png;base64,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"
@@ -171,17 +256,24 @@
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST5LfytTeDGqTlcp8wmNmQTl0YpRgBJoZdEQ&usqp=CAU"
                 alt=""></div>
     </div>
-    <h2 id="projects">Social links</h2>
+   
     <div class="social" id="contact">
+       
+        <div class="hire d-flex flex-column justify-content-center align-items-center" id="contact">
+            <h2>Let's Work Together</h2>
+            <button type="button"  class="btn "><a href="mailto:vamshigutha@gmail.com"> Hire me </a></button>
+        </div>
+        <div class="icon d-flex  justify-content-center align-items-center">
+            <a href="https://www.instagram.com/_im__vamshi/" target="blank"><i class="fab fa-instagram" style="color:red;"></i></a>
+            <a href="https://www.facebook.com/vamshi.guptha.58" target="blank"><i class="fab fa-facebook" style="color:blue ;"></i></a>
+            <a href="https://www.linkedin.com/mwlite/in/vamshi-gutha-0ab293174" target="blank"><i class="fab fa-linkedin"
+                    style="color: blueviolet;"></i></a>
 
-
-        <a href="http://www.instagram.com" target="blank"><i class="fab fa-instagram" style="color:red;"></i></a>
-        <a href="http://www.facebook.com" target="blank"><i class="fab fa-facebook" style="color:blue ;"></i></a>
-        <a href="http://www.linkedin.com" target="blank"><i class="fab fa-linkedin" style="color: blueviolet;"></i></a>
-
+        </div>
     </div>
-    <a href="thanks.html"><button> form</button></a>
-
+    <div class="footer">
+        <p class="text-center pt-4">© vamshigutha 2021 | All Rights Reserved</p>
+    </div>
 </body>
 
 </html>
