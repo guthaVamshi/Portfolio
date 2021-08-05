@@ -1,150 +1,170 @@
-*{
+* {
     letter-spacing: 1px;
 }
 
-h1{
+h1 {
     letter-spacing: 1px;
     margin: 4rem 0px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
+
 .btn {
     background: linear-gradient(to bottom left, #ee8a78, #ff4f64);
     color: white;
-  }
-  
-  
-  .hire h2 {
+}
+
+.hire h2 {
     font-size: 36px;
-   color: white;
-   text-align: center;
+    color: white;
+    text-align: center;
     font-weight: 700;
     padding-bottom: 0px;
     margin-bottom: 60px;
     text-transform: capitalize;
-   
-  }
-.social {
-           background: url("https://directlinedev.com/media/cases/rooney/header/background_1_zM58lsj.wide.jpeg");
-           background-position: center;
-           background-size: cover;
-           background-attachment: fixed;
-           padding:10rem;
 }
-.myskill{
+
+.social {
+    background: url("https://directlinedev.com/media/cases/rooney/header/background_1_zM58lsj.wide.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10rem;
+}
+
+.myskill {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     font-weight: bold;
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
-.myskill div{
-    
+#myskill-img {
     padding: 1rem;
+    cursor: pointer;
 }
-#vamshi{
+#vamshi {
     font-family: 'Quicksand', sans-serif;
     margin: 0rem;
-   
 }
-
-#mainDiv{
+#mainDiv {
     padding-top: 10rem;
     padding-bottom: 10rem;
-   background-image: url("https://img.freepik.com/free-photo/overhead-view-laptop-office-stationery-white-background_23-2147880623.jpg?size=626&ext=jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-attachment: fixed;
-   background-position:center;
-  
-   
+    background-image: url("https://img.freepik.com/free-photo/overhead-view-laptop-office-stationery-white-background_23-2147880623.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
-
-    #navbarNav{
-justify-content: flex-end;
-padding-right:10rem ;
-    }
-    .navbar{
-        padding-left: 10rem;
-    }
-
-.progress-bar, .badge{
+#navbarNav {
+    justify-content: flex-end;
+    padding-right: 10rem;
+}
+.navbar {
+    padding-left: 10rem;
+}
+.progress-bar, .badge {
     background: linear-gradient(to bottom left, #ee8a78, #ff4f64);
     opacity: 0.8;
 }
-
-.progress{
+.progress {
     height: 0.5rem;
 }
-.row a{
+.row a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
-#hh{
+#hh {
     padding: 5rem;
 }
-
-#skill{
-    padding-top:5%;
-     padding-bottom: 5%;
+#skill {
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-.university ,.inter,.tenth{
+.university, .inter, .tenth {
     border: 1px solid #eee;
     background-color: #f8f9fa;
-   
 }
-.icon i{
+.icon i {
     margin: 1.5rem;
     font-size: 3rem;
-
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: #ff4f64;
 }
-button.btn a{
+button.btn a {
     text-decoration: none;
     color: white;
 }
-.navigation a,header a span{
-    color: rgba(0,0,0,.7);
-  
+
+.navigation a, header a span {
+    color: rgba(0, 0, 0, .7);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+    background-color: #f8f9fa;
+    margin: auto;
+    padding: 20px;
+    font-size: large;
+    border: 1px solid #888;
+    width: 80%;
+}
+.myskill .button {
+    padding: 0.1rem 0.3rem;
+    margin: 1rem;
+    background: linear-gradient(to bottom left, #ee8a78, #ff4f64);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 @media screen and (max-width: 425px) {
-    #mainDiv{
-        margin-top:0rem;
+    #mainDiv {
+        margin-top: 0rem;
         padding-left: 2rem;
     }
-    .myskill{
+    .myskill {
         justify-content: center;
         display: flex;
         flex-direction: column;
     }
-    #nav{
+    #nav {
         display: none;
         visibility: none;
     }
-    #about,.edu{
+    #about, .edu {
         display: flex;
         flex-direction: column;
     }
-    #about h2{
+    #about h2 {
         text-align: center;
     }
-    .mypic{
+    .mypic {
         margin: 0rem;
     }
-    #hh{
+    #hh {
         padding: 0rem;
-        padding-bottom:2rem ;
+        padding-bottom: 2rem;
     }
-    .row{
+    .row {
         flex-direction: column;
         justify-content: center;
         align-items: stretch;
     }
-    .navigation{
+    .navigation {
         display: none;
     }
-  }
+}
