@@ -2,6 +2,9 @@
 <html lang="en">
 
     <head>
+        <link rel = "icon" href = 
+        "https://cryptologos.cc/logos/v-systems-vsys-logo.png" 
+                type = "image/x-icon">
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,8 +35,10 @@
             href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
             integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
             crossorigin="anonymous" />
+         
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <title>Gutha vamshi</title>
     </head>
 
@@ -74,10 +79,10 @@
         <section>
             <div id="about" class="m-4 d-flex justify-content-center
                 align-items-center">
-                <div class="mypic mx-4 img-fluid">
+                <div class="mypic mx-4 img-fluid" data-aos="fade-right">
                     <img id="hh" src="vamshi.jpg" alt="" srcset="">
                 </div>
-                <div class="about">
+                <div class="about" data-aos="fade-left">
                     <h2>
                         About Me
                     </h2>
@@ -227,7 +232,7 @@
         <div class="container mt-4 pt-4">
             <h1 class="text-center">My Education</h1>
             <div class="edu d-flex justify-content-evenly align-items-center">
-                <div class="university b-box m-4">
+                <div class="university b-box m-4" data-aos="zoom-in">
                     <div class="container m-4">
                         <h3>Lovely Professional University</h3>
                         <p>B.Tech in CSE</p>
@@ -236,16 +241,16 @@
 
                 </div>
                 <div class="inter b-box m-4">
-                    <div class="container m-4">
+                    <div class="container m-4" data-aos="zoom-in">
                         <h3>Narayana Institutions</h3>
                         <p>Intermediate</p>
                         <p class="badge">2016-2018</p>
                     </div>
                 </div>
                 <div class="tenth b-box m-4">
-                    <div class="container m-4">
+                    <div class="container m-4" data-aos="zoom-in">
                         <h3>Century Hi-profile School</h3>
-                        <p>Tenth</p>
+                        <p>Scooling</p>
                         <p class="badge">2008-2016</p>
                     </div>
                 </div>
@@ -325,11 +330,11 @@
             <div class="hire d-flex flex-column justify-content-center
                 align-items-center" id="contact">
                 <h2>Let's Work Together</h2>
-                <button type="button" class="btn"><a
+                <button type="button" class="btn" ><a
                         href="mailto:vamshigutha@gmail.com"> Hire me </a></button>
             </div>
-            <div class="icon d-flex justify-content-center align-items-center">
-                <a href="https://www.instagram.com/vamshi_gutha/" target="blank"><i
+            <div class="icon d-flex justify-content-center align-items-center" data-aos="zoom-in"> 
+                <a href="https://www.instagram.com/_im__vamshi/" target="blank"><i
                         class="fab fa-instagram"
                         style="color:red;"></i></a>
                 <a href="https://www.facebook.com/vamshi.guptha.58"
@@ -346,4 +351,9 @@
         </div>
     </body>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
 </html>
