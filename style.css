@@ -136,6 +136,7 @@ button.btn a {
         margin-top: 0rem;
         padding-left: 2rem;
     }
+  
     .myskill {
         justify-content: center;
         display: flex;
@@ -164,7 +165,7 @@ button.btn a {
         justify-content: center;
         align-items: stretch;
     }
-    .navigation {
+    .TopHead {
         display: none;
     }
 }
