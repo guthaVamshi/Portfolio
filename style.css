@@ -61,9 +61,7 @@ h1 {
     justify-content: flex-end;
     padding-right: 10rem;
 }
-.navbar {
-    padding-left: 10rem;
-}
+
 .progress-bar, .badge {
     background: linear-gradient(to bottom left, #ee8a78, #ff4f64);
     opacity: 0.8;
@@ -92,7 +90,21 @@ h1 {
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #ff4f64;
+    border-bottom: solid   #ff4f64 ;
+    background-color: unset;
+    border-bottom-width: 3px;
+}
+.nav-pills li{
+    margin:0.5rem;
+}
+nav{
+    font-size: 1rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.navbar-collapse{
+    flex-grow: 0;
 }
 button.btn a {
     text-decoration: none;
@@ -142,10 +154,7 @@ button.btn a {
         display: flex;
         flex-direction: column;
     }
-    #nav {
-        display: none;
-        visibility: none;
-    }
+  
     #about, .edu {
         display: flex;
         flex-direction: column;
