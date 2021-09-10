@@ -31,11 +31,12 @@ nothanks.onclick = function () {
 }
 window.onclick = function (event) {
   if (event.target == modal) {
-    modal.style.display = "none";
+    modal.style.display = "none";   
   }
-    if (event.target == modal2) {
-    modal2.style.display = "none";
+  if (event.target == modal2) {
+    modal2.style.display = "none";   
   }
+
 }
 btn2.onclick = function () {
   modal2.style.display = "block";
@@ -43,5 +44,15 @@ btn2.onclick = function () {
 nothanks2.onclick = function () {
   modal2.style.display = "none";
 }
-
-
+$('.TopHead').hide();
+$(window).scroll(function() {
+  if ($(this).scrollTop()>400)
+   {
+    
+      $('.TopHead').fadeIn(600);
+   }
+  else
+   {
+    $('.TopHead').fadeOut(100);
+   }
+});
