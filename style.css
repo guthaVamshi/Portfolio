@@ -185,7 +185,7 @@ button.btn a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10rem;
+    width: 4rem;
     height: 3rem;
     cursor: pointer;
     transition: all .5s ease-in-out;
