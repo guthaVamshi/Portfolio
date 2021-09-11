@@ -45,6 +45,7 @@ nothanks2.onclick = function () {
   modal2.style.display = "none";
 }
 $('.TopHead').hide();
+var wid = $(window).width();
 $(window).scroll(function() {
   if ($(this).scrollTop()>400)
    {
@@ -55,4 +56,16 @@ $(window).scroll(function() {
    {
     $('.TopHead').fadeOut(100);
    }
+});
+
+const menuBtn = document.querySelector('.menu-btn');
+let menuOpen = false;
+menuBtn.addEventListener('click', () => {
+  if(!menuOpen) {
+    menuBtn.classList.add('open');
+    menuOpen = true;
+  } else {
+    menuBtn.classList.remove('open');
+    menuOpen = false;
+  }
 });
