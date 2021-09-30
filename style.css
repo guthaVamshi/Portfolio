@@ -12,6 +12,12 @@ h1 {
 .btn {
     background: linear-gradient(to bottom left, #ee8a78, #ff4f64);
     color: white;
+    border-radius: 3px;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 400;
+    
+    
 }
 
 .hire h2 {
@@ -47,6 +53,16 @@ h1 {
 #vamshi {
     font-family: 'Quicksand', sans-serif;
     margin: 0rem;
+  font-weight: 500;
+    background: -webkit-radial-gradient(#998885, #2e2728a1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+#canvas{
+    position: absolute;
+    z-index: 0;
+   
 }
 .banner{
     background-image: url("background.jpg");
@@ -54,7 +70,7 @@ h1 {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-   
+ 
 }
 .loader_bg{
     position: fixed;
@@ -100,14 +116,11 @@ h1 {
         opacity: 0;
     }
 }
-
-
-
 #mainDiv {
-    
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    
+    height:100vh;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+  
 }
 #navbarNav {
     justify-content: flex-end;
@@ -199,6 +212,7 @@ button.btn a {
     #mainDiv {
         margin-top: 0rem;
         padding-left: 2rem;
+        padding-top: 10rem;
     }
   
     .myskill {
@@ -237,6 +251,7 @@ button.btn a {
     display: flex;
     justify-content: center;
     align-items: center;
+   
     height: 3rem;
     cursor: pointer;
     transition: all .5s ease-in-out;
@@ -280,3 +295,5 @@ button.btn a {
   .menu-btn.open .menu-btn__burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
   }
+
+  
