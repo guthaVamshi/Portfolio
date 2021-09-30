@@ -9,7 +9,7 @@ canvas.height = window.innerHeight;
 
 if(window.screen.availWidth  < 425
   ){
-    x = 30;
+    x = 40;
   }else{
     x = 150;
   }
