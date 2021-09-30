@@ -50,15 +50,7 @@ h1 {
     padding: 1rem;
     cursor: pointer;
 }
-#vamshi {
-    font-family: 'Quicksand', sans-serif;
-    margin: 0rem;
-  font-weight: 500;
-    background: -webkit-radial-gradient(#998885, #2e2728a1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  
-}
+
 #canvas{
     position: absolute;
     z-index: 0;
@@ -71,7 +63,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+  
  
 }
 .loader_bg{
@@ -245,6 +237,7 @@ button.btn a {
     .TopHead {
         display: none;
     }
+  
 }
 
 
@@ -299,3 +292,44 @@ button.btn a {
   }
 
   
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content:flex-start;
+  
+  }
+
+  #container p {
+    font-size: 4rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 1rem;
+    position: fixed;
+ 
+  }
+  #container p span.typed-text {
+    font-weight: normal;
+    color: #ff4f64c4;
+    font-weight: bold;
+    z-index: 2;
+  }
+  #container p span.cursor {
+    display: inline-block;
+    background-color: #ff4f64c4;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  #container p span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
