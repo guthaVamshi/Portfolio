@@ -7,9 +7,17 @@ var canvas = document.getElementById("canvas"),
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
+if(window.screen.availWidth == 320
+  ){
+    x = 30;
+  }else{
+    x = 150;
+  }
+
 var stars = [], // Array that contains the stars
     FPS = 60, // Frames per second
-    x = 100, // Number of stars
+  
+   // Number of stars
     mouse = {
       x: 0,
       y: 0

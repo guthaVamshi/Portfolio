@@ -62,7 +62,9 @@ h1 {
 #canvas{
     position: absolute;
     z-index: 0;
-   
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
 }
 .banner{
     background-image: url("background.jpg");
@@ -118,7 +120,7 @@ h1 {
 }
 #mainDiv {
     height:100vh;
-    padding-top: 15rem;
+    padding-top: 45vh;
     padding-bottom: 15rem;
   
 }
@@ -212,7 +214,7 @@ button.btn a {
     #mainDiv {
         margin-top: 0rem;
         padding-left: 2rem;
-        padding-top: 10rem;
+        padding-top: 45vh;
     }
   
     .myskill {
