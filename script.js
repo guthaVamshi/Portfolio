@@ -7,7 +7,7 @@ var canvas = document.getElementById("canvas"),
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-if(window.screen.availWidth == 320
+if(window.screen.availWidth  < 425
   ){
     x = 30;
   }else{
