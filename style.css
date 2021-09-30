@@ -314,7 +314,7 @@ button.btn a {
     font-weight: normal;
     color: #ff4f64c4;
     font-weight: bold;
-    z-index: 2;
+    
   }
   #container p span.cursor {
     display: inline-block;
