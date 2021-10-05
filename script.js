@@ -1,6 +1,4 @@
-var NameLen = 0;
-var txt = 'vamshi gutha';
-var speed = 180;
+
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext('2d');
 
@@ -109,16 +107,7 @@ function tick() {
 }
 
 tick();
-window.onload = function typeWriter() {
-  if (NameLen < txt.length) {
-    document.getElementById("vamshi").innerHTML += txt.charAt(NameLen) ;
-    NameLen++;
-    setTimeout(typeWriter, speed);
-   
-  }
 
-};
- 
 function redirect() {
   window.open('https://github.com/guthaVamshi/codeSmashers', '_blank');
   modal.style.display = "none";
