@@ -297,6 +297,9 @@ button.btn a {
   .cols{
       flex-direction: column;
   }
+  .col-6{
+    width: 100%;
+  }
     .myskill {
         justify-content: center;
         display: flex;
