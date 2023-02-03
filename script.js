@@ -180,4 +180,5 @@ var age_dt = new Date(month_diff);
 var year = age_dt.getUTCFullYear();
 var age = Math.abs(year - 1970);
 document.getElementById('myAge').innerHTML=age;
-
+const presentyear=new Date();
+document.getElementById('year').innerHTML= presentyear.getFullYear();

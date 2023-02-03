@@ -1,6 +1,5 @@
 * {
     letter-spacing: 1px;
-    
 }
 
 h1 {
@@ -36,6 +35,7 @@ h1 {
     font-weight: bold;
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
 }
 #myskill-img {
     padding: 1rem;
@@ -43,10 +43,10 @@ h1 {
 }
 
 #canvas{
-    position: absolute;
-    z-index: 0;
+  position:absolute;
+  z-index: 0;
    background-position: center;
-   background-attachment: fixed;
+   background-attachment:fixed;
    background-size: cover;
 }
 .banner{
@@ -132,6 +132,10 @@ h1 {
 .university, .inter, .tenth {
     border: 1px solid #eee;
     background-color: #f8f9fa;
+}
+.company-logo{
+  max-height: 5rem;
+  padding: 1rem;
 }
 .icon i {
     margin: 1.5rem;
@@ -286,8 +290,6 @@ button.btn a {
     99% { background-color: transparent; }
     100%  { background-color: #ccc; }
   }
-
-  
 @media screen and (max-width: 425px) {
     #mainDiv {
         margin-top: 0rem;
@@ -305,10 +307,16 @@ button.btn a {
         display: flex;
         flex-direction: column;
     }
-  
-    #about, .edu {
+    .skill{
+      margin: 0.5rem;
+    }
+    #about, .edu,.Exp {
         display: flex;
         flex-direction: column;
+    }
+    .company{
+      align-items: center;
+      justify-content: center;
     }
     #about h2 {
         text-align: center;
