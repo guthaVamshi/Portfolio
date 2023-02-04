@@ -1,12 +1,11 @@
 * {
     letter-spacing: 1px;
 }
-
 h1 {
     letter-spacing: 1px;
     margin: 4rem 0px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -34,14 +33,13 @@ h1 {
     align-items: center;
     font-weight: bold;
     font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 1rem;
 }
 #myskill-img {
     padding: 1rem;
     cursor: pointer;
 }
-
 #canvas{
   position:absolute;
   z-index: 0;
