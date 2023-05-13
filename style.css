@@ -1,5 +1,5 @@
 * {
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 h1 {
     letter-spacing: 1px;
@@ -65,8 +65,6 @@ h1 {
 .loader{
     border: 0 soild transparent;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
     position: absolute;
     top: calc(50vh - 75px);
     left: calc(50vw - 75px);
@@ -363,8 +361,12 @@ button:active {
     background-color: #f8f9fa;
 }
 .company-logo{
-  max-height: 5rem;
+  max-height: 10rem;
   padding: 1rem;
+}
+.resume-list{
+  background-color: #F8FAFB;
+  margin-bottom:1rem;
 }
 .icon i {
     margin: 1.5rem;
@@ -539,7 +541,7 @@ button.btn a {
     .skill{
       margin: 0.5rem;
     }
-    #about, .edu,.Exp {
+    #about, .edu{
         display: flex;
         flex-direction: column;
     }
