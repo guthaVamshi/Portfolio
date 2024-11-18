@@ -34,6 +34,15 @@ h1 {
     font-family: 'Poppins', sans-serif;
     margin: 1rem;
 }
+.Aftereffect::after{
+  content: "";
+  display: block;
+  width: 4%;
+  height: 0.3rem;
+  background-color: #f58d99;
+  border-radius: 1em;
+  margin: 5px auto 0 auto;
+}
 #myskill-img {
     padding: 1rem;
     cursor: pointer;
