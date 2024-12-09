@@ -765,3 +765,9 @@ button.btn a {
       margin: 0 0 2rem 0;
     }
   }
+  @media screen and(max-width <425px) {
+    #about{
+      flex-direction: column;
+    }
+    
+  }
