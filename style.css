@@ -1,5 +1,10 @@
 * {
     letter-spacing: 0.5px;
+    
+}
+html{
+
+  scroll-behavior: smooth;
 }
 h1 {
     letter-spacing: 1px;
@@ -55,9 +60,9 @@ h1 {
    background-size: cover;
 }
 .banner{
-    background-image: url("background.jpg");
+    background-image: url("background\ copy.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-attachment: fixed;
   
  
@@ -562,7 +567,9 @@ button.btn a {
     }
     .mypic {
         margin: 0rem;
+       
     }
+   
     #hh {
         padding: 0rem;
         padding-bottom: 2rem;
@@ -798,5 +805,8 @@ button.btn a {
   }
   .cols{
     flex-direction: column;
+  }
+  .banner{
+    background-position:right;
   }
 }
